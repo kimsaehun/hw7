@@ -5,6 +5,7 @@ const mime = require('mime');
 
 var handleError = function(err, res) {
   fs.readFile('app/error.html', function(err, data) {
+    res.setHeader('Content-Type', mime.getType('html'));
     res.writeHead(404);
     res.end(data);
   });
