@@ -1,5 +1,3 @@
-# hw5
-cpsc 473 hw 5
+# hw7
+cpsc 473 hw 7
 
-CH 15 and 16
-along with some other stuff
